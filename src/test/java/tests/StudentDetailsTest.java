@@ -4,7 +4,7 @@ import dataStorge.DataStore;
 import dataStorge.StudentResponse;
 import io.restassured.common.mapper.TypeRef;
 import io.restassured.http.ContentType;
-import org.example.Student;
+import model.Student;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;

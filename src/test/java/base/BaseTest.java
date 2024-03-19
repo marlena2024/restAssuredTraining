@@ -18,7 +18,6 @@ public class BaseTest  {
                 .addParam("appid", System.getProperty("appid"))
                 .setContentType(ContentType.JSON)
                 .build()
-                .filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
-
+                .filters(new RequestLoggingFilter(), new ResponseLoggingFilter()); //dodaje logi - log all
     }
 }

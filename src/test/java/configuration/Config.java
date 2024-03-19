@@ -12,7 +12,7 @@ public class Config {
     private Map<String, Object> config = new HashMap<>();
 
     @JsonAnyGetter
-    public Map<String, Object> getConfig() {
+    public Map<String, Object> getConfig() { //wszystko co w yamlu będzie mapą
         return config;
     }
 
